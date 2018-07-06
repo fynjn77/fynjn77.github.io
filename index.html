@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document-mobile</title>
+	<link rel="stylesheet" href="css/normalize.css">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 
+	 <!-- <link rel="stylesheet/less" href="main.less">
+
+<script src="http://lesscss.googlecode.com/files/less-1.1.3.min.js"></script>  -->
+ 	<!-- <link rel="stylesheet" href="../css/oncss.css"> -->
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<nav class='mobile-menu'>
+		<input type="checkbox" name="" id="mobile" class='mobile-menu__input'>
+		<label class='mobile-menu__button' for='mobile'></label>
+	
+	<ul class='header-navigation'>
+		<li class='header-navigation__item'><a class='header-navigation__link' href="">КАРТА ШТАТА</a></li>
+		<li class='header-navigation__item'><a class='header-navigation__link' href="">ИНФОРМАЦИЯ</a></li>
+		<li class='header-navigation__item'><a class='header-navigation__link' href="">ФОТО И ВИДЕО</a></li>
+		<li class='header-navigation__item'><a class='header-navigation__link' href="">ГОСТИНИЦЫ</a></li>
+		<li class='header-navigation__item'><img src="img/logo.png" alt="logo" class='header-navigation__logo'></li>
+	</ul>
+
+	</nav>	
+	<div class='slogan__img' class='slogan__img'></div>
+	<div class='slogan'>
+		<p class='slogan__sedona'>
+			СЕДОНА - НЕБОЛЬШОЙ
+				ГОРОДОК В АРИЗОНЕ,<br/>
+				ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
+		</p>	
+		<p class='slogan__review'>
+			РАССМТОРИМ 5 ПРИЧИН, ПО КОТОРЫМ
+			СЕДОНА КРУЧЕ ЧЕМ ГРАНД КАНЬОН
+		</p>
+	</div>
+	<div class='reasons-flex'>
+		<div class='reasons__item'>
+			<p class='reasons-flex__header'>НАСТОЯЩИЙ ГОРОДОК</p>
+			<p class='reasons-flex__number'>-N1-</p>
+			<p class='reasons-flex__text'>СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+		</div>
+		<div  class='reasons-flex__img'></div>
+	</div>
+		<ul class='reasons-list'>
+			<li class='reasons-list__item'>
+				<h2 class='reasons-list__header'>ЖИЛЬЕ</h2>
+				<p class='reasons-list__text'>
+					РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ,
+					ВСЁ КАК В КИНО!
+				</p>
+			</li>
+			<li class='reasons-list__item'>
+				<h2 class='reasons-list__header'>СУВЕНИРЫ</h2>
+				<p class='reasons-list__text'>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+			</li>
+			<li class='reasons-list__item'>
+				<h2 class='reasons-list__header'>ЕДА</h2>
+				<p class='reasons-list__text'>
+					ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР,
+					ВЫ НЕ РАЗОЧАРУЕТЕСЬ!
+				</p>
+			</li>
+		</ul>
+		
+		
+		<div class='reasons-flex'>
+		<div class='reasons__item'>
+			<p class='reasons-flex__header'>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</p>
+			<p class='reasons-flex__number'>-N2-</p>
+			<p class='reasons-flex__text'>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
+		</div>
+		<!-- <img src="img/bridge.png" alt="bridge"> -->
+		<div class='reasons-flex__img'></div>
+		</div>
+		<ul class='reasons-list--center'>
+			<li class='reasons-list--center__item'>
+				<p class='reasons-list--center__header'>НЕБОЛЬШАЯ ПЛОЩАДЬ</p>
+				<p class='reasons-list--center__text'>-N3-</p>
+				<p class='reasons-list--center__text'>ВСЕ ДОСТОПРИЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+			</li>
+			<li class='reasons-list--center__item'>
+				<p class='reasons-list--center__header'>КРАСИВАЯ ДОРОГА</p>
+				<p class='reasons-list--center__text'>-N4-</p>
+				<p class='reasons-list--center__text'>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
+			</li>
+			<li class='reasons-list--center__item'>
+				<p class='reasons-list--center__header'>МАЛО ТУРИСТОВ</p>
+				<p class='reasons-list--center__text'>-N5-</p>
+				<p class='reasons-list--center__text'>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+			</li>
+		</ul>
+	</div>
+	<footer class='main-footer'>
+		<div class='hotel-choise'>
+			<p class='reasons-list--center__header'>ЗАИНТЕРЕСОВАЛИСЬ?</p>
+			<p class='reasons-list--center__text--form'>
+				УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ
+				ПОЕЗДКИ И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ
+				ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ
+			</p>
+			<h3 class='hotel-choise__seek-hotel'>ПОИСК ГОСТИННИЦЫ В СЕДОНЕ</h3>
+			<form action="" class='hotel-choise__visit-date' >
+				<label for="" class='hotel-choise__item'>
+					<p class='hotel-choise__in'>ДАТА ЗАЕЗДА:</p>
+					<input type="text" class='hotel-choise__date-form' placeholder='однажды'>
+				</label>
+				<label for="" class='hotel-choise__item'>
+					<p class='hotel-choise__out'>ДАТА ВЫЕЗДА:</p>
+					<input type="text" class='hotel-choise__date-form' placeholder='через пару дней спустя'>
+				</label>
+			
+				<label for="" class='hotel-choise__item--people'>
+					<button class='hotel-choise__minus'></button>
+					<input type="text" class='hotel-choise__people'>
+					<button class='hotel-choise__plus'></button>
+				</label>
+				<label for="" class='hotel-choise__item--child'>
+					<button class='hotel-choise__minus'></button>
+					<input type="text" class='hotel-choise__child'>
+					<button class='hotel-choise__plus'></button>
+				</label>
+			</form>
+		<button class='hotel-choise__find-btm'>НАЙТИ</button>
+		</div>
+		<iframe src="https://yandex.ru/map-widget/v1/-/CBq-bXVexD" width="100%" height="590" allowfullscreen="true" class='map'></iframe>
+		<div class="upon-map">
+			<p class="hashtag"><b>#VISITSEDONA</b></p>
+			<ul class="social">
+				<li class="social__item">
+					<a href="https://ru-ru.facebook.com/login/" class="social__button"></a>
+				</li>
+				<li class="social__item">
+					<a href="https://twitter.com/?lang=ru" class="social__button"></a>
+				</li>
+				<li class="social__item">
+					<a href="https://www.youtube.com/" class="social__button"></a>
+				</li>
+			</ul>
+		</div>	
+	</footer>
+</body>
+</html>
